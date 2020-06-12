@@ -1,0 +1,23 @@
+html,
+body,
+#root,
+.App {
+	height: 100%;
+	background: rgb(228, 228, 228);
+	margin: 0;
+	padding: 0;
+
+	.layout {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+
+		.top-bar {
+			background: #fff159;
+			flex: 0;
+		}
+		.app-body {
+			flex: 1;
+		}
+	}
+}

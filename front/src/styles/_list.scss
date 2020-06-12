@@ -1,0 +1,29 @@
+.list {
+	margin: 4rem 0;
+
+	.list-item {
+		cursor: pointer;
+		background: white;
+		border: 1px solid rgba(206, 205, 205, .25);
+		padding: 1rem;
+
+		&:hover {
+			opacity: .75;
+		}
+
+		a {
+			color: black;
+			text-decoration: none;
+
+			.price {
+				font-size: 1.25rem;
+			}
+			.title {
+				font-size: 1rem;
+			}
+			.state_name {
+				font-size: .75rem;
+			}
+		}
+	}
+}

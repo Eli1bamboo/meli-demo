@@ -1,0 +1,26 @@
+.details {
+	background: white;
+	padding: 2rem;
+
+	.selling {
+		color: black;
+
+		.condition-sales {
+			font-size: .75rem;
+		}
+		.title {
+			font-size: 1.25rem;
+		}
+
+		.price {
+			font-size: 2rem;
+		}
+	}
+
+	.description {
+		font-size: .75rem;
+		.title {
+			font-size: 1.25rem;
+		}
+	}
+}
